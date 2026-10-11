@@ -105,4 +105,4 @@ This project uses synthetic sales and order data created for educational and por
 
 All costumers records, sales persons, orders, results are simulated and do not represent actual business operations.
 
-Real city names may be used for route and geographic analysis, but all associated data and numerical results are fictional.
+Real city names may be used for route and geographic analysis, but all associated data and numerical results are fictional. 
