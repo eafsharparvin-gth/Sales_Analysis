@@ -1,6 +1,7 @@
 # Sales Analysis Project
 
 ## Project Overview
+
 This project analyzes sales data to evaluate business performance and identify patterns in revenue, profitability, products, customers, salespersons, warehouses, categories, discounts, and monthly sales trends.
 
 The analysis was performed using Python, Pandas, NumPy, and Matplotlib, with a focus on practical business insights and data-driven decision making.
@@ -20,6 +21,7 @@ The project includes data preparation, KPI analysis, visualization, and business
     Average Quantity Per Order  12.29
 
 ## Tools & Technologies
+
 * Python
 * Pandas — Data Preparation & Analysis
 * NumPy — Numerical Operations
@@ -27,6 +29,7 @@ The project includes data preparation, KPI analysis, visualization, and business
 * Jupyter / Python Environment — Analysis Workflow
 
 ## Key Insights
+
 * Daniel was the top salesperson in both total revenue and total profit.
 * W001 generated the highest revenue and achieved the highest profit margin among the warehouses.
 * Dried Fruits achieved the highest category profit margin at 30.95%.
@@ -36,6 +39,7 @@ The project includes data preparation, KPI analysis, visualization, and business
 * Overall, the business generated a 21.75% profit margin across 100 orders.
 
 ## Visualizations
+
 The project includes several visualizations to explore sales trends, profitability, product performance, category performance, and relationships between key business variables.
 
 Selected visualizations include:
@@ -48,6 +52,7 @@ Selected visualizations include:
 * Quantity vs. Profit Analysis
 
 ## Business Recommendations
+
 Based on the analysis, the following actions are recommended:
 
 * Review high discount levels: The 15% discount level was associated with lower revenue per order and lower profit margin. Discount policies should therefore be evaluated carefully, especially at higher discount levels.
@@ -57,6 +62,8 @@ Based on the analysis, the following actions are recommended:
 * Investigate monthly patterns: June showed the strongest performance in the analyzed period. Understanding the factors behind this performance may help improve planning for weaker months.
 
 ## Project Structure
+
+```text
 Sales-Analysis/
 ├── README.md
 ├── sales_analysis.py
@@ -77,8 +84,10 @@ Sales-Analysis/
     ├── top5_products_profit.png
     ├── discount_vs_revenue.png
     └── quantity_vs_profit.png
+```
 
 ## How to Run
+
 1. Clone or download the repository.
 2. Make sure Python is installed.
 3. Install the required libraries:
@@ -89,3 +98,11 @@ pip install pandas numpy matplotlib
 5. Run the main Python script:
 python sales_analysis.py
 The analysis results and visualizations will be generated from the provided sales data.
+
+## Data Disclaimer
+
+This project uses synthetic sales and order data created for educational and portfolio demonstration purposes.
+
+All costumers records, sales persons, orders, results are simulated and do not represent actual business operations.
+
+Real city names may be used for route and geographic analysis, but all associated data and numerical results are fictional.
